@@ -24,7 +24,7 @@
                 <i class="fas fa-angle-right"></i>
             </div>
             <div class="nav">
-                <i :class="(index == contatore) ? 'active' : null" v-for="(image, index) in images" class="fas fa-circle" @click="click"></i>
+                <i :class="(index == contatore) ? 'active' : null" v-for="(image, index) in images" class="fas fa-circle" @click="click(index)"></i>
             </div>
         </div>
     </div>

@@ -26,7 +26,7 @@ var app = new Vue ({
         },
 
         click: function(index) {
-            console.log(index);
+            this.contatore = index
         }
     },
 
